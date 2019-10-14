@@ -1,0 +1,15 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.parent {
+  position: relative;
+}
+
+.myTxt {
+  height: 30%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
