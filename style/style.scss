@@ -1,0 +1,413 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: medium;
+	text-align: center;
+}
+
+$font-sans-serif: 'Open Sans', sans-serif;
+$font-serif: 'Arvo', serif;
+
+$bg-color: #f6f6f6;
+$mask-color: #495d5d;
+
+$link-color: #7759FF;
+$primary-color: #7759FF;
+$link-hover-color: #7E1FFF;
+
+$dark-bg-color: #1D2228;
+$text-on-dark: #F1F1F5;
+$primary-on-dark: #907CFF;
+$default-text-color: #232A31;
+$second-text-color: #464E56;
+$light-text-color: #828C93;
+$white: #ffffff;
+$black: #000000;
+
+
+html {
+	font-size: 18px;
+}
+
+
+p, h1, h2, h3,h4{
+    font-family: $font-sans-serif;
+	color: $default-text-color;
+}
+
+
+.text1{
+	font-size: 1.1rem;
+	// color: $default-text-color;
+	color: $second-text-color;
+	font-family: $font-sans-serif;
+    text-align: left;
+    line-height: 1.9rem;
+	font-weight: 400;
+}
+/* p居中 */
+.text2{
+	font-size: 1rem;
+	color: $second-text-color;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.text-center{
+	font-size: 1.1rem;
+	color: $second-text-color;
+	font-family: $font-sans-serif;
+    text-align: center;
+    line-height: 1.9rem;
+	font-weight: 400;
+}
+/* p在深色背景下的白色 */
+.otext{
+    color: $white;
+}
+/* p在深色背景下的text色 */
+.light-otext{
+    color: $text-on-dark;
+}
+/* p在cover的字体 */
+.ctext {
+	font-size: 1.2rem;
+	color: $white;
+	font-family: $font-sans-serif;
+	text-align: left;
+	line-height: 2.1rem;
+	font-weight: 300;
+}
+/* p在project cover的字体 */
+.c-project-text {
+	font-size: 1.3rem;
+	color: $default-text-color;
+	font-family: $font-sans-serif;
+	text-align: left;
+	line-height: 2rem;
+	font-weight: 400;
+}
+/* p在home card的字体 */
+.hcard-text {
+	font-size: 1.1rem;
+	color: $default-text-color;
+	font-family: $font-sans-serif;
+	text-align: left;
+	line-height: 1.5rem;
+	font-weight: 300;
+}
+
+h5 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $default-text-color;
+}
+h4{
+    font-size: 1.2rem;
+	color: $primary-color;
+    font-weight: 800;
+	text-transform: uppercase;
+}
+h3{
+	font-size: 2.2rem;
+    font-weight: bold;
+	color:$default-text-color;
+}
+h2{
+    font-size: 3.6rem;
+    font-weight: 800;
+	text-align: left;
+	line-height: 4.8rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+	.ctext, .c-project-text, .text1, .text2{
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+	.hcard-text{
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	h2 {
+		font-size: 2.4rem;
+		line-height: 3rem;
+	}
+}
+
+.my-navbar{
+	background: #000;
+}
+.navbar .navbar-nav{
+    font-size: 1rem;
+    font-family: $font-sans-serif;
+}
+
+.header{
+	h1{
+		line-height:30px;
+	}
+	img{
+		width: 250px;
+		margin-bottom: 15px;
+	}
+	h2{
+	    font-family: $font-sans-serif;
+	    line-height: 2;
+	    font-size: 20px;
+	    font-weight: lighter;
+		margin-top: -20px;
+		color: #4d4d4d;
+	    opacity: 1;
+
+		a{
+			color: $link-color;
+		    opacity: 1;
+		}
+		a:hover{
+			color: $link-hover-color;
+		}
+	}
+	h2:focus{
+		color: $link-hover-color;
+	}
+	h3{
+		font-family: $font-sans-serif;
+
+		font-size: 16px;
+		font-weight: lighter;
+		margin-top: 0px;
+		margin-bottom: -10px;
+		color: #000;
+		opacity: 0.7;
+		line-height: 2;
+		a{
+			color: $link-color;
+			opacity: 1;
+		}
+		a:hover{
+			color: #f4c600;
+		}
+	}
+	h3:focus{
+		color: #f4c600;
+	}
+	.h3_1{
+		color: #222;
+		text-decoration: underline;
+	}
+}
+
+
+footer{
+	background-color: $dark-bg-color;
+	margin-top: 70px;
+    padding-top: 10px;
+	padding-bottom: 20px;
+	.col-md-12 {
+		display: flex;
+		justify-content: space-between;
+		p{
+			font-family: $font-sans-serif;
+			margin-bottom: 60px;
+			margin-top: 30px;
+			font-size: 1rem;
+			a{
+				color: $white;
+				font-weight: 400;
+			}
+			a:hover{
+				color: $primary-color;
+			}
+		}
+		p:focus{
+			color: $primary-color;
+		}
+	}
+}
+@media (max-width: 1200px) {
+	footer {
+		margin-top: 70px;
+		padding-top: 10px;
+		padding-bottom: 40px;
+		.col-md-12 {
+			flex-direction: column;
+			p {
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+
+
+.img-half {
+	-webkit-transform: scale(0.8); /* Saf3.1+, Chrome */
+       -moz-transform: scale(0.8); /* FF3.5+ */
+        -ms-transform: scale(0.8); /* IE9 */
+         -o-transform: scale(0.8); /* Opera 10.5+ */
+            transform: scale(0.8);
+}
+
+.alignLeft {
+	text-align: left;
+	h3, h4, {
+		text-align: left;
+	}
+	.mybtn {
+		text-align: left;
+	}
+}
+
+.mybtn {
+	background-color: $primary-on-dark;
+	font-family: $font-sans-serif;
+	color: $white;
+	font-size: 1rem;
+	line-height: 2rem;
+	font-weight:700;
+	padding: 12px 28px;;
+	border-radius: 2rem;
+}
+.mybtn:hover {
+	background-color: $primary-color;
+}
+
+
+/******** previous and next  *******/
+.previousNext{
+    margin-top: 30px;
+	a {
+		h4{
+			color: $light-text-color;
+		}
+		p{
+			color: $light-text-color;
+			border-bottom: 5px solid $white;
+			padding: 0 0 10px;
+		}
+	}
+	a:hover {
+		text-decoration: none;
+		h3{color: $black;}
+		h4{
+			color: $primary-color;
+		}
+		p{
+			color: $default-text-color;
+			border-bottom: 5px solid $primary-color;
+			padding: 0 0 10px;
+		}
+	}
+
+}
+
+.parallelEffect {
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+
+// homepage
+.fullScreen {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.home {
+	background-image: url("../img/home-cover.png");
+	background-color: $dark-bg-color;
+	background-repeat: no-repeat;
+	background-position: top right;
+	p{
+		a, a:visited, a:focus{
+			color: $white;
+			text-decoration: none;
+			font-weight: 700;
+			position: relative;
+    		background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
+    		background-origin: 0;
+    		background-size: 200% 13%;
+    		background-repeat: repeat-x;
+    		background-position: -100% 100%;
+
+			// font-weight: 700;
+			// background-image: linear-gradient(to right, transparent 50%, rgba(119, 89, 255, 0.7) 50%);
+			// background-origin: 0;
+			// background-size: 200% 25%;
+			// background-repeat: repeat-x;
+			// background-position: -100% 100%;
+		}
+		a:hover{
+			background-size: 200% 50%;
+
+			// background-image: linear-gradient(to right, transparent 50%, rgba(119, 89, 255, 1) 50%);
+			text-decoration: none;
+			// background-size: 200% 55%;
+			//
+			transition: background-position 0.8s ease-out;
+			transition-delay: 0.5s;
+		}
+	}
+	p:focus{
+		color: $primary-color;
+	}
+}
+
+.work {
+	margin-top: 140px;
+	margin-bottom: 140px;
+	h2 {
+		margin-bottom: 40px;
+	}
+
+	.home-card{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		border-radius: 8px;
+		border: 1px;
+		a:hover {
+			text-decoration: none;
+		}
+		.card-wrapper {
+			margin-top: 30px;
+			p {
+				margin-top: 20px;
+				border-bottom: 5px solid $white;
+				padding: 0 0 10px;
+			}
+		}
+	}
+	.home-card:hover {
+		p {
+			color: $default-text-color;
+			border-bottom: 5px solid $primary-color;
+    		padding: 0 0 10px;
+		}
+	}
+	.left {
+		margin-right: 20px;
+	}
+	.right {margin-left: 20px;}
+
+	@media (max-width: 1200px) {
+		.left {
+			margin-right: 0px;
+		}
+		.right {
+			margin-left: 0px;
+		}
+	}
+}
