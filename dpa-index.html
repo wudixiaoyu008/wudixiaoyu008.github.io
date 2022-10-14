@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-5 col-md-6">
                   <!-- TradingView Widget BEGIN -->
-                  <div class="tradingview-widget-container">
+                  <!-- <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/EURUSD/?exchange=FX" rel="noopener" target="_blank"><span class="blue-text">EURUSD Rates</span></a> by TradingView</div>
                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -108,9 +108,59 @@
                     "largeChartUrl": ""
                   }
                     </script>
+                  </div> -->
+                  <!-- TradingView Widget END -->
+
+                  <!-- TradingView Widget BEGIN -->
+                  <div class="tradingview-widget-container">
+                    <div id="tradingview_15aca"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">Apple</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                    <script type="text/javascript">
+                    new TradingView.MediumWidget(
+                    {
+                    "symbols": [
+                      [
+                        "Apple",
+                        "AAPL|1D"
+                      ],
+                      [
+                        "Google",
+                        "GOOGL|1D"
+                      ],
+                      [
+                        "Microsoft",
+                        "MSFT|1D"
+                      ]
+                    ],
+                    "chartOnly": false,
+                    "width": "425",
+                    "height": "450",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "autosize": false,
+                    "showVolume": false,
+                    "hideDateRanges": false,
+                    "scalePosition": "right",
+                    "scaleMode": "Normal",
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+                    "noTimeScale": false,
+                    "valuesTracking": "1",
+                    "chartType": "area",
+                    "lineColor": "#2962ff",
+                    "topColor": "rgba(41, 98, 255, 0.3)",
+                    "bottomColor": "rgba(41, 98, 255, 0)",
+                    "lineWidth": 2,
+                    "container_id": "tradingview_15aca",
+                    "isTransparent": true
+                  }
+                    );
+                    </script>
                   </div>
                   <!-- TradingView Widget END -->
                 </div>
+
+
                 <div class="col-xl-4 col-lg-5 col-md-6">
                   <!-- TradingView Widget BEGIN -->
                   <div class="tradingview-widget-container">
