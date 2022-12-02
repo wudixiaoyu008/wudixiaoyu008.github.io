@@ -325,7 +325,10 @@ footer{
 	display: flex;
 	align-items: center;
 }
-
+.fullScreen-dpa {
+	display: flex;
+	align-items: center;
+}
 .home {
 	background-image: url("../img/home-cover.png");
 	background-color: $dark-bg-color;
