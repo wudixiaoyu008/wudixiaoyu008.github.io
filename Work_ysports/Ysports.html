@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85726186-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-85726186-1');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../img/logo-icon1.ico">
+
+    <title>Portfolio | Yahoo Sports</title>
+    <!-- <script type="text/javascript" src="../js/jquery.view-min2.js"></script> -->
+    <link href="../style/bootstrap.min.css" rel="stylesheet">
+    <link href="../style/style.min.css" rel="stylesheet">
+    <link href="ysports.min.css" rel="stylesheet">
+    <link href="../style/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="../style/fakeLoader.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="fakeLoader"></div>
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><strong>YU LIU</strong>
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav" style="float:right">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../About/Yuliu.html">About</a></li>
+                    <li><a href="../Resume/resume.html">Resume</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+
+    <!-- scroll indicator -->
+    <div class="scroll-indicator">
+        <div class="progress-container">
+            <div class="progress-bar scrollIndicator-background" id="scrollIndicator-Bar" style="width: 0%;"></div>
+        </div>
+    </div>
+
+
+    <!-- sidenav -->
+    <div class="fixed-sidenav" id="sidebar-fixed-sidenav">
+        <a href="#context" class="sidebar-text-transparent"><h5>Context</h5></a>
+        <a href="#uncoverTheProblem" class="sidebar-text-transparent"><h5>Uncover The Problem</h5></a>
+        <a href="#solutionOverview" class="sidebar-text-transparent"><h5>Solution Overview</h5></a>
+        <a href="#userOnboarding" class="sidebar-text-transparent"><h5>User Onboarding</h5></a>
+        <a href="#bigSportsCoverage" class="sidebar-text-transparent"><h5>Big Sports Coverage</h5></a>
+        <a href="#leagueScoreRevamp" class="sidebar-text-transparent"><h5>League Score Revamp</h5></a>
+        <a href="#mobileReskin" class="sidebar-text-transparent"><h5>Mobile Reskin</h5></a>
+        <a href="#inTheEnd" class="sidebar-text-transparent"><h5>In The End</h5></a>
+	</div>
+
+
+    <!-- cover -->
+    <div class="fullScreen ysports-cover">
+        <div class="container">
+            <div class="row cover">
+                <div class="col-xl-2 col-lg-1 col-md-0">
+                </div>
+                <div class="col-xl-8 col-lg-10 col-md-12">
+                    <img src="../img/logo-ysports.svg" class="img-responsive" alt="YSports-Logo">
+                    <!-- <h2 data-aos="fade-down" data-aos-duration="300" data-aos-delay="1100">DRIVE THE MOBILE GROWTH</h2> -->
+                    <h2>DRIVE THE MOBILE GROWTH</h2>
+                    <br>
+                    <!-- <p class="c-project-text" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1200"> -->
+                    <p class="c-project-text">Led the mobile growth design, increased retention
+                        <span class="highlight-text">by 200% YOY</span>,
+                        <span class="highlight-text">DAU by 25% YOY</span>,
+                        <span class="highlight-text">and NPS by 10 YOY</span>.</p>
+                    <br><br>
+                    <div class="app-store">
+                        <!-- <a href="https://apps.apple.com/us/app/yahoo-sports-watch-nfl-live/id286058814" target="_blank" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1300"> -->
+                        <a href="https://apps.apple.com/us/app/yahoo-sports-watch-nfl-live/id286058814" target="_blank">
+                            <img src="img/appstore.svg" alt="app store" class="img-responsive">
+                        </a>
+                        <!-- <a href="https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.sportacular&hl=en_US" target="_blank" data-aos="fade-up" data-aos-duration="300" data-aos-delay="1300"> -->
+                        <a href="https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.sportacular&hl=en_US" target="_blank">
+                            <img src="img/googleplay.svg" alt="google play" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- context -->
+    <section class="dark-section" id="context">
+        <div class="container headerParagraph alignLeft">
+            <div class="row">
+                <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                    <h4>1. CONTEXT</h4>
+                    <h3 class="otext">Design Background</h3>
+                    <p class="text1 light-otext">Yahoo Sports is one of the most loved sports apps by fans in North America. The app keeps evolving to make it easy to connect teams, players, and games, so that sports fans never miss a moment. In 2018, it started to provide the NFL live streaming service to fans, aiming to increase the mobile app DAU. Even with the big investment and usage surge in related modules,
+                        <span class="highlight-text highlight-text-dark">the overall retention and engagement are still fairly low :(</span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="container headerParagraph alignLeft">
+            <div class="row">
+                <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                    <h3 class="otext">My Role</h3>
+                    <p class="text1 light-otext">My goal is to drive mobile app retention and engagement. I uncovered the problems, led the design strategy and the design for mobile growth. Main deliverables include user onboarding, scores tab, big sports coverage. Throughout the process, we also innovated design system for the platform which becomes the standard adopted by 4 designers.</p>
+                    <a href="#solutionOverview" id="jumpToFinal">
+                        <!-- <button type="button" name="button" class="mybtn" data-aos="fade-up" data-aos-duration="300"> -->
+                        <button type="button" name="button" class="mybtn">
+                            JUMP TO FINAL DESIGN
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Uncover the problem -->
+    <div id="uncoverTheProblem" class="category">
+        <section class="white-section textAndImage">
+            <div class="container headerParagraph text-center firstpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h4>2. UNCOVER THE PROBLEM</h4>
+                        <h3>A Business Requirement?</h3>
+                        <p class="text-center">Drive the mobile growth is a pure business requirement from top management. It seems ambiguous and hard to execute. As a Product Designer,
+                            <span class="highlight-text">it's my job to convert the business requirement to user problems, then solve them successfully</span>.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section withSubHeader">
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h3>Convert to Users Problems</h3>
+                        <h5>Typical user journey</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <img src="img/typicalUserJourney.png" alt="typical user journey" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h5>What are user problems?</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/userProblems.png" alt="user problems" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section textAndImage">
+
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>Design Strategy</h3>
+                        <p class="text-center">Through preliminary research, we know that
+                            <span class="highlight-text">there is a significant positive correlation between users' first time experience and retention rate.</span>
+                            To improve the first time experience,
+                            <span class="highlight-text">how can we divide and conquer the big business requirement and solve above user problems? </span>
+                        </p>
+                        <!-- <img src="img/designStrategyFull.png" alt="design strategy" class="img-responsive" data-aos="zoom-in" data-aos-duration="300"> -->
+                        <img src="img/designStrategyFull.png" alt="design strategy" class="img-responsive">
+
+                    </div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+
+
+
+        </section>
+    </div>
+
+    <!-- solution overview -->
+    <div id="solutionOverview" class="category-bottom">
+        <section class="multiImage">
+            <div class="container headerParagraph text-center firstpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h4>3. Final Outcome</h4>
+                        <h3>Solution Overview</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                        <img src="img/solutionOverview1.png" alt="solution overview1" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="container headerParagraph text-center followpara" data-aos="fade-up" data-aos-duration="300">
+                <div class="row">
+                        <img src="img/solutionOverview2.png" alt="solution overview2" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="container headerParagraph text-center followpara" data-aos="fade-up" data-aos-duration="300">
+                <div class="row">
+                        <img src="img/solutionOverview3.png" alt="solution overview3" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="container headerParagraph text-center followpara" data-aos="fade-up" data-aos-duration="300">
+                <div class="row">
+                        <img src="img/solutionOverview4.png" alt="solution overview4" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <!-- how did I get there -->
+    <section class="dark-section onlyImage">
+        <div class="container headerParagraph">
+            <div class="row">
+                <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-center">
+                    <h1 class="otext">How Did I Get There?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-3 col-xs-0"></div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 text-left">
+                    <img src="img/howToGetThere.png" alt="how to get there" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- user onboarding -->
+    <div id="userOnboarding" class="category">
+
+        <section class="white-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h4>4. User Onboarding</h4>
+                        <img src="img/designStrategy1.png" alt="design strategy 1" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section onlyImage section-bottom">
+
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h3>What Users Like In Onboarding?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/whatUsersLike.png" alt="what users like in onboarding" class="img-responsive" data-aos="fade-up" data-aos-duration="400">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="grey-section onlyImage">
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h3>So, Those Ideas Were Sunsetted</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/ideasKilled.png" alt="ideas are killed" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section onlyText section-top">
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h3>“What matters is not growth of users, <span class="highlight-text">it's growth of users completing the core action</span>.“</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section withSubHeader">
+
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h5>What Is The Core Action?</h5>
+                        <p class="text-center">The action that is the very foundation and essence of your product. Pinterest would not exist without pinning. Twitter would not exist without tweeting. What’s YouTube if people didn’t upload videos? Facebook wouldn’t exist if users weren’t friending.
+                            <span class="highlight-text">For Yahoo Sports, the core action is adding favorite teams.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container headerParagraph text-center followpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <h5>What’s The Best Way?</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/onboardingBestWay.png" alt="Best way to add core action" class="img-responsive" data-aos="fade-up" data-aos-duration="400">
+                </div>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12">
+                        <p class="text-center">I made prototypes in Framer, and tested through in-lab user studies, also fans night.
+                            <span class="highlight-text">Option 3 wins</span>. Because it's more efficient, users can navigate to different leagues from left sidebar, and scroll less than the view pager. Users also prefer the bigger and exciting logos compared with accordion.
+                            <span class="highlight-text">At last, I combined the header and search bar to save vertical space</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gradient-section textAndImage">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>Drive Users Coming Back</h3>
+                        <p class="text-center">Besides letting users complete the core actions,
+                            <span class="highlight-text">we also need a scheme to drive users coming back, which is the notification</span>. I synced with Yahoo Mail Growth PMs, to get their insights, including the order, copy, preferred formats, etc.</p>
+                        <p class="text-center">
+                            <span class="highlight-text">Most importantly, adding a pre-prompt step is always better</span>. And always keep in mind
+                            <span class="highlight-text">fans like the fandom (favorite teams), and dislike too many notifications</span>.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/notification.png" alt="notification" class="img-responsive">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="gradient-section textAndImage">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>Overall Onboarding Flow</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/onboardingFlow.png" alt="notification" class="img-responsive">
+                </div>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <p class="text-center">
+                            <span class="highlight-text">We decided to remove the step of 'adding favorite leagues'</span>, because we can add them for users automatically once they select the favorite teams.</p>
+                        <p class="text-center">
+                            <span class="highlight-text">We also moved the notification permission step from beginning to the end.</span> During a/b testing, these two perform at the same level. We aligned to put it in the end, because it conforms more to users mental model since they already input a lot effort. </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="grey-section leftAndRight">
+
+            <div class="container headerParagraph alignLeft">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <h3 class="text-left">Wait A Minute!</h3>
+                        <p class="text1">There is a loading time, and it's usually around 7 seconds. Should we grab this opportunity to utilize the 7 seconds?
+                            <span class="highlight-text">I designed a welcome video to kill the blank during loading, delivering the value props and killer features to users.</span> We can also customize it in different sports seasons.</p>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-0"></div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <img src="img/grey-small-gif.gif" alt="welcome video" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- big sports coverage -->
+    <div id="bigSportsCoverage">
+
+        <section class="white-section onlyImage section-bottom section-top">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h4>5. Big Sports Coverage</h4>
+                        <img src="img/designStrategy2.png" alt="design strategy 2" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section textAndImage section-bottom section-top">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>Pilot With NFL Draft</h3>
+                        <p class="text-center">We wanna provide sports fans a method to know and follow the latest and biggest sporting events that may be out of the realm of their favorite sports.
+                            <span class="highlight-text">And 2 weeks later, NFL draft is coming. Let's pilot test with that in 2 weeks.</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/draftStory.png" alt="draft use cases" class="img-responsive">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="white-section onlyImage section-bottom section-top">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <h3>That’s A Huge Success!</h3>
+
+                    <img src="img/hugeSuccess.png" alt="NFL draft success" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section textAndImage section-bottom section-top">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>How Can We Replicate The Success?</h3>
+                        <p class="text-center">That's a huge success, how might we replicate the success, since there are many big sports events around the world across the year, like NBA finals, significant F1 race, tennis grand slam, Olympics, etc.
+                            <span class="highlight-text">I extracted it to a card template for all the big sports events.</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/bigSportsCard.png" alt="big sports card" class="img-responsive">
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- league score revamp -->
+    <div id="leagueScoreRevamp" class="category">
+        <section class="white-section onlyImage section-top section-bottom">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h4>6. League Score Revamp</h4>
+                        <img src="img/designStrategy3.png" alt="design strategy 3" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section leftAndRight section-top section-bottom">
+
+            <div class="container headerParagraph alignLeft">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <h3 class="text-left">Why It's Important?</h3>
+                        <p class="text1">It's the most popular tab in our app. Users spend 80% of their time in the app on this tab</p>
+                    </div>
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <img src="img/importantTab.png" alt="important tab" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="white-section onlyImage section-top section-bottom">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-1 col-xs-0"></div>
+                    <div class="col-xl-8 col-lg-8 col-md-10 col-xs-12 text-left">
+                        <h3>Not Just One Page</h3>
+                        <img src="img/notJustOnePage.png" alt="not just one page" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                        <h3>Final Outcome</h3>
+                        <img src="img/leagueScoreRedesign.png" alt="league score redesign" class="img-responsive">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- mobile reskin -->
+    <div id="mobileReskin" class="category">
+
+        <section class="white-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h4>7. Mobile Reskin</h4>
+                        <img src="img/designStrategy4.png" alt="design strategy 4" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section leftAndRight section-bottom2 section-top">
+            <div class="container headerParagraph alignLeft">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <h3 class="text-left">Utilize The New Tool</h3>
+                        <p class="text1">We used to rely on Google Drive File Stream to collaborate. But when it comes to the design system, it can no longer support the tasks. We fast integrated Abstract,
+                            <span class="highlight-text">utilize the designers' git for version control and collaboration.</span></p>
+                    </div>
+                    <div class="col-xl-1 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-xs-12 text-left" data-aos="zoom-in" data-aos-duration="400">
+                        <img src="img/abstract.png" alt="abstract" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grey-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                        <h3>Design System</h3>
+                        <img src="img/designSystem.png" alt="design system" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+        <section class="parallelEffect reskin">
+            <div class="container headerParagraph alignLeft">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-xs-12 text-left">
+                        <h3>Modern Reskin</h3>
+                        <p class="text1">We reskined the entire product, including both iOS and Android, leveraging the new design system. Aiming to provide a more consistent and delightful experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section onlyText section-top">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 text-left">
+                        <h3>User Quotes</h3>
+                        <p class="text-center">We tested wildly the new design through in-lab testing, fans night, and in-app survey. The reskin got lots of positive feedback.
+                            <span class="highlight-text">After launch, our NPS surged mainly due to the reskin.</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-4 col-lg-5 col-xs-12 text-left user-quote">
+                        <p class="text-left">It looks more <span class="highlight-text">crisp and visually appealing</span>.</p>
+                        <p class="text-left">It looks a lot <span class="highlight-text">more modern and more attractive</span> to look at. I like how the team logos are not boxed and the video has more of a presence. </p>
+                        <p class="text-left">It's easier to look at. Font is clearer. <span class="highlight-text">Not overwhelmed</span> by information.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 col-xs-12 text-left user-quote">
+                        <p class="text-left">Numbers and information is less overwhelming. <span class="highlight-text">Easier to read and absorb</span> information.</p>
+                        <p class="text-left">I like new design a little better just <span class="highlight-text">because of the color scheme</span>.</p>
+                        <p class="text-left">I felt like it was simple and easier to read. The <span class="highlight-text">graphics didn't distract</span> from the text.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- in the end -->
+    <div id="inTheEnd">
+        <section class="grey-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                        <h4>8. In The End</h4>
+                        <h3>Did I Solve All The Problems?</h3>
+                        <img src="img/allTheProblems.png" alt="solve all the problems" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+        <section class="white-section multiImage section-top2 section-bottom2">
+            <div class="container headerParagraph text-center secondpara">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-2 col-md-0"></div>
+                    <div class="col-xl-6 col-lg-8 col-md-12 col-xs-12 text-left">
+                        <h3>Talk About Metrics</h3>
+                        <p class="text-center">During my year at Yahoo Sports, I led the design of mobile app growth. Besides the above projects, I also drove other growth opportunities like the watch tab, home stream, app upsell, etc. Overall, they all worked really well.</p>
+                        <img src="img/finalMetrics.png" alt="final metrics" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="container headerParagraph text-center thirdpara">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-1 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-10 col-md-12 col-xs-12 mx-auto d-block">
+                        <div class="app-store mx-auto d-block">
+                            <a href="https://apps.apple.com/us/app/yahoo-sports-watch-nfl-live/id286058814" target="_blank" data-aos="fade-up" data-aos-duration="400">
+                                <img src="img/appstore.svg" alt="app store" class="img-responsive">
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.sportacular&hl=en_US" target="_blank" data-aos="fade-up" data-aos-duration="600">
+                                <img src="img/googleplay.svg" alt="google play" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gradient-section onlyImage">
+            <div class="container headerParagraph">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-0"></div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-xs-12 text-left">
+                        <h3>What I Learnt</h3>
+                        <img src="img/whatILearnt.png" alt="what I learnt" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="container headerParagraph">
+                <div class="row">
+                        <img src="img/groupPhoto.png" alt="group photo" class="img-responsive">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+    <!-- previous and next -->
+    <div class="container previousNext">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <hr><br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+                <a href="../Work_adbuilder/Adbuilder.html">
+                    <h4 class="text-left">PREVIOUS</h4>
+                    <h3 class="text-left">Ad Builder</h3>
+                    <p class="text1">Creating ads has never been this easy</p>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="../Work_csair/Csair.html">
+                    <h4 class="text-left">NEXT</4>
+                    <h3 class="text-left">CS Airlines</h3>
+                    <p class="text1 text-right">Travel can be easy and smooth</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <br>
+                <br>
+                <div class="col-md-12">
+                    <p class="otext">
+                        <a href="mailto:liuyu.xxd@gmail.com" target="_blank">liuyu.xxd@gmail.com</a>  ·
+                        <a href="https://www.linkedin.com/in/liuyuc" target="_blank">LinkedIn</a>  ·
+                        <a href="https://www.instagram.com/_liuyuxxd/" target="_blank">Instagram</a>  ·
+                        <a href="https://github.com/wudixiaoyu008" target="_blank">Github</a>  ·
+                        <a href="https://dribbble.com/liuyuxxd" target="_blank">Dribble</a>
+                    </p>
+                    <p class="otext">© 2023 design & code by <a href="../About/Yuliu.html"><strong>Yu Liu</strong></a></p>
+                </div>
+                <br>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../js/jquery.min.js"></script>
+    <!-- scroll animation -->
+    <script type="text/javascript" src="../js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+    <!-- fakeLoader -->
+    <script type="text/javascript" src="../js/fakeLoader.js"></script>
+
+
+    <!-- <script src="../js/jquery.view.min.js"></script> -->
+
+    <!-- goUp -->
+    <script type="text/javascript" src="../js/jquery.goup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $.fakeLoader({
+                bgColor: '#232A31',
+                spinner:"spinner4",
+                timeToHide: "1000"
+            });
+            $.goup({
+                trigger: 100,
+                bottomOffset: 20,
+                locationOffset: 20,
+                titleAsText: true,
+                goupSpeed:'normal',
+                hideUnderWidth:200
+            });
+
+        });
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="ysports.js"></script>
+
+
+
+
+</body></html>
